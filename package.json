@@ -2,12 +2,9 @@
   "name": "smartci",
   "version": "0.0.0",
   "description": "makes it easy to automate tasks with Continuous Integration",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "(cd ts/compile && node compile.js) && (node test.js)",
-    "reinstall": "(rm -r node_modules && npm install)",
-    "release": "(git pull origin master && npm version patch && git push origin master && git checkout release && git merge master && git push origin release && git checkout master)",
-    "startdev": "(git checkout master && git pull origin master && npm install)"
+    "test": "(npmts)"
   },
   "repository": {
     "type": "git",
@@ -26,6 +23,7 @@
     "beautylog": "^1.0.4"
   },
   "devDependencies": {
-    "npmts": "^3.5.0"
+    "npmts": "^3.5.0",
+    "should": "^8.2.2"
   }
 }

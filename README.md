@@ -1,28 +1,22 @@
-# smartenv
-store things about your environment and let them travel across modules
+# smartci
+store things about your environment and let them travel across modules.
 
 ## Status
-[![Build Status](https://travis-ci.org/pushrocks/smartenv.svg?branch=release)](https://travis-ci.org/pushrocks/smartenv)
-[![Dependency Status](https://david-dm.org/pushrocks/smartenv.svg)](https://david-dm.org/pushrocks/smartenv)
-[![devDependency Status](https://david-dm.org/pushrocks/smartenv/dev-status.svg)](https://david-dm.org/pushrocks/smartenv#info=devDependencies)
-[![bitHound Dependencies](https://www.bithound.io/github/pushrocks/smartenv/badges/dependencies.svg)](https://www.bithound.io/github/pushrocks/smartenv/master/dependencies/npm)
-[![bitHound Overalll Score](https://www.bithound.io/github/pushrocks/smartenv/badges/score.svg)](https://www.bithound.io/github/pushrocks/smartenv)
+[![Build Status](https://travis-ci.org/pushrocks/smartci.svg?branch=release)](https://travis-ci.org/pushrocks/smartci)
+[![Dependency Status](https://david-dm.org/pushrocks/smartci.svg)](https://david-dm.org/pushrocks/smartci)
+[![devDependency Status](https://david-dm.org/pushrocks/smartci/dev-status.svg)](https://david-dm.org/pushrocks/smartci#info=devDependencies)
+[![bitHound Dependencies](https://www.bithound.io/github/pushrocks/smartci/badges/dependencies.svg)](https://www.bithound.io/github/pushrocks/smartci/master/dependencies/npm)
+[![bitHound Overalll Score](https://www.bithound.io/github/pushrocks/smartci/badges/score.svg)](https://www.bithound.io/github/pushrocks/smartci)
 
 ## Install
 Install the package through npm
 
 ```
-npm install smartenv
+npm install smartci
 ```
 
 ## Usage
 
 ```javascript
-var smartenv = require("smartenv");
 
-smartenv.info(); //prints an output about your current environment and registered objects
-smartenv.register({akey:"a text"},"somevalue"); // register a new object
-smartenv.makeGlobal() // make smartenv available from gobal.smartenv
-smartenv.get("somevalue").akey; // returns "a text"
-smartenv.items.somevalue.akey; // also returns "a text"
 ```

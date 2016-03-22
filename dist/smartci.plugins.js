@@ -1,0 +1,5 @@
+"use strict";
+/// <reference path="typings/main.d.ts" />
+exports.path = require("path");
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNtYXJ0Y2kucGx1Z2lucy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQUEsMENBQTBDO0FBQy9CLFlBQUksR0FBRyxPQUFPLENBQUMsTUFBTSxDQUFDLENBQUMiLCJmaWxlIjoic21hcnRjaS5wbHVnaW5zLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLy8vIDxyZWZlcmVuY2UgcGF0aD1cInR5cGluZ3MvbWFpbi5kLnRzXCIgLz5cbmV4cG9ydCBsZXQgcGF0aCA9IHJlcXVpcmUoXCJwYXRoXCIpOyJdLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ==
