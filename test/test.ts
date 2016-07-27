@@ -16,6 +16,7 @@ describe("smartci",function(){
         });
         describe(".isTaggedCommit",function(){
             it("should state if we are dealing with a tagged commit",function(){
+                delete process.env["CI_BUILD_TAG"];
                 smartci.isTaggedCommit().should.be.false();
                 process.env.CI_BUILD_TAG = "3.1.2";
                 smartci.isTaggedCommit().should.be.true();
