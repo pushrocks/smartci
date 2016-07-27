@@ -1,6 +1,3 @@
 node_modules/
 docs/
 coverage/
-ts/**/*.js
-ts/**/*.js.map
-.idea/

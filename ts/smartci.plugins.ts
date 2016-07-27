@@ -1,2 +1,2 @@
-/// <reference path="typings/main.d.ts" />
+import "typings-global";
 export let path = require("path");

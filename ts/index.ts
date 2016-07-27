@@ -1,10 +1,14 @@
-/// <reference path="typings/main.d.ts" />
 import plugins = require("./smartci.plugins");
-import SmartCiCheck = require("./smartci.check");
 import SmartCiGet = require("./smartci.get");
-let smartci = {
-    check: SmartCiCheck,
-    get: SmartCiGet
+
+export let isCi = function():boolean {
+    if(process.env.CI == "true"){
+        return true;
+    } else {
+        return false;
+    }
 };
 
-export = smartci;
+export let isTaggedCommit = () => {
+    return typeof process.env.CI_BUILD_TAG != "undefined";
+}
