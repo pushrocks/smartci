@@ -1,2 +1,2 @@
-import "typings-global";
-export declare let path: any;
+import * as path from 'path';
+export { path };

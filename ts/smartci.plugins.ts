@@ -1,2 +1,3 @@
-import "typings-global";
-export let path = require("path");
+import * as path from 'path';
+
+export { path };

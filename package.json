@@ -21,12 +21,10 @@
   },
   "homepage": "https://github.com/pushrocks/smartci",
   "dependencies": {
-    "beautylog": "^5.0.18",
-    "typings-global": "^1.0.6"
+    "beautylog": "^6.1.10"
   },
   "devDependencies": {
-    "npmts-g": "^5.2.8",
-    "should": "^10.0.0",
-    "typings-test": "^1.0.1"
+    "@types/node": "^9.4.6",
+    "tapbundle": "^1.1.8"
   }
 }
